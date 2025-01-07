@@ -1,0 +1,196 @@
+body {
+  background-color: #0d0d0d !important;
+  background-image: url("../src/imgs/light-patten.svg");
+  overflow-x: hidden !important;
+}
+
+.loading-image {
+  width: 80px;
+  height: 80px;
+}
+
+.categories .layer p {
+  font-size: 15px;
+}
+
+.categories .layer {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  left: 0;
+  transition: 0.5s !important;
+  height: 100%;
+  opacity: 0.8;
+
+}
+
+
+
+.category-card:hover .layer {
+  top: 0;
+  transition: 0.5s !important;
+  cursor: pointer;
+}
+
+
+.youtube {
+  width: fit-content !important;
+  background-color: #FF0000;
+}
+
+.simply-recipe {
+  width: fit-content !important;
+  background-color: #117877;
+}
+
+.loading {
+  z-index: 999;
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #000;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #000;
+}
+
+.navbar-desktop {
+
+  position: fixed;
+  left: -250px !important;
+  top: 0;
+  bottom: 0;
+  width: 320px;
+  height: 100%;
+  background: #000;
+  transition: ease-in-out 0.5s;
+}
+
+.navbar-desktop .side-bar {
+  width: 70px;
+  background-color: #Fff;
+  z-index: 2;
+}
+
+.navbar-desktop .top {
+  height: 33.33333% !important;
+}
+
+.navbar-desktop .middle {
+  height: 33.33333%;
+}
+
+.navbar-desktop .bottom {
+  height: 33.33333%;
+}
+
+
+.navbar .logo {
+  height: 55px;
+  width: 50px;
+}
+
+.navbar .navbar-desktop .menu-details {
+  z-index: 0 !important;
+}
+
+#openSideMenu:hover,
+#closeSideMenu:hover {
+  cursor: pointer;
+}
+
+
+.ingredient-image {
+
+  width: 100px !important;
+  margin: auto;
+
+}
+
+.fit {
+  width: fit-content !important;
+}
+
+
+input:focus {
+  border: 1px green solid !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.ingredient-card {
+  transition: 0.5s;
+
+}
+
+.ingredient-card:hover {
+  transform: rotate(-3deg) scale(1.05) !important;
+  
+  transition: 0.5s;
+  background-color: #f1f1f1;
+}
+
+
+ .mobile-menu{
+  position: fixed !important;
+  left: -320px;
+  top: 0 !important;
+  bottom: 0 !important;
+  height: 100% !important;
+  width: 250px !important;
+  background-color: #000;
+  transition: 0.5s;
+}
+
+
+
+.navbar-mobile .side-bar {
+  width: 70px;
+  background-color: #Fff;
+  z-index: 2;
+  border: none !important;
+}
+
+.navbar-mobile .top {
+  height: 33.33333% !important;
+}
+
+.navbar-mobile .middle {
+  height: 33.33333%;
+}
+
+.navbar-mobile .bottom {
+  height: 33.33333%;
+}
+
+.navbar-mobile #close:hover{
+  cursor: pointer;
+}
+
+.navbar-mobile #open:hover{
+cursor: pointer !important;
+}
+
+.ingredient-main{
+  transition: 0.1s !important;
+}
+
+.ingredient-main:hover{
+  transition: 0.1s !important;
+  background-color: rgb(174, 171, 171) !important;
+}
